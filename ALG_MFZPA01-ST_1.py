@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 import streamlit as st
 import pandas as pd
 import numpy as np
 import os
+import openpyxl
 
 st.title("📦 Optimización de Almacén: Asignación de Referencias a zona Preferente")
 
